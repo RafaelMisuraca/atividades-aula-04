@@ -1,0 +1,22 @@
+#atividade 1
+numero = int(input("Digite um numero de 1 a 10: "))
+for i in range(1, 11):
+    print(f"{numero} X {i} = {numero * i}")
+
+#Atividade 2
+numero = int(1)
+for i in range(0,101):
+    print(f"{numero} += {i} = {numero + i}")
+
+#atividade 3
+palavra = input("Digite uma palavra:")
+ for letra in palavra:
+     print(letra)
+
+
+
+#atividade 4
+numero = 0
+for contagem in range(10,-1,-1):
+    print(contagem)
+print("Feliz Ano Novo!")
